@@ -10,10 +10,6 @@ Class for:
 class Node
 {
 public:
-	std::string val;
-	Node* left;
-	Node* right;
-
 	Node(std::string val, Node* left = nullptr, Node* right = nullptr);
 	Node(Node* node);
 	~Node();
@@ -26,6 +22,9 @@ public:
 	Node* GetRight() const { return right; }
 
 private:
+	std::string val;
+	Node* left;
+	Node* right;
 
 	void SafeDelete(Node* ptr);
 };
