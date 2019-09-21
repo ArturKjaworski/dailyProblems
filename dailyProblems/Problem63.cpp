@@ -14,20 +14,20 @@ Problem63::~Problem63()
 
 void Problem63::Run()
 {
-	char arr[COLS][ROWS] =
+	char arr[ROWS][COLS] =
 	{ 
-		{'F', 'A', 'C', 'I'},
-		{'O', 'B', 'Q', 'P'},
-		{'A', 'N', 'O', 'B'},
-		{'M', 'A', 'S', 'S'}
+		{'F', 'A', 'C', 'I', 'A'},
+		{'O', 'B', 'Q', 'P', 'A'},
+		{'A', 'N', 'O', 'B', 'A'},
+		{'A', 'M', 'A', 'S', 'S'},
 	};
 
-	std::string word("FOAM");
+	std::string word("MASS");
 
 	std::cout<<"Word "<< (IsWordFound(arr, word) ? "found" : "not found") << std::endl;
 }
 
-bool Problem63::IsWordFound(char arr[COLS][ROWS], const std::string& word)		//1 parameter - don't like, but it works...
+bool Problem63::IsWordFound(char arr[ROWS][COLS], const std::string& word)		//1 parameter - don't like, but it works...
 {
 	int wordSize = word.size();
 	if (wordSize > COLS && wordSize > ROWS)

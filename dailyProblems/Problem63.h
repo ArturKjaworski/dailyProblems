@@ -12,7 +12,7 @@ public:
 	Problem63();
 	~Problem63();
 
-	static const int COLS = 4;
+	static const int COLS = 5;
 	static const int ROWS = 4;
 
 	void Run()override;
@@ -20,6 +20,6 @@ public:
 private:
 	
 
-	bool IsWordFound(char arr[COLS][ROWS], const std::string& word);
+	bool IsWordFound(char arr[ROWS][COLS], const std::string& word);
 };
 
