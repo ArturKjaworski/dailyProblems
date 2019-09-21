@@ -34,7 +34,7 @@ float Problem50::EvalTree(Node* root)
 	std::string tmpVal = root->GetVal();
 
 	if (nodeChildLeft == nullptr && nodeChildRight == nullptr)
-		return std::stof(root->GetVal());		//no idiot check
+		return std::stof(root->GetVal());
 
 	float first = EvalTree(nodeChildLeft);
 	float second = EvalTree(nodeChildRight);
