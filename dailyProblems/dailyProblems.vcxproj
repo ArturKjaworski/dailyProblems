@@ -163,6 +163,7 @@
     <ClInclude Include="Problem50.h" />
     <ClInclude Include="Problem63.h" />
     <ClInclude Include="Problem65.h" />
+    <ClInclude Include="Problem69.h" />
     <ClInclude Include="Problem8.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -185,6 +186,7 @@
     <ClCompile Include="Problem50.cpp" />
     <ClCompile Include="Problem63.cpp" />
     <ClCompile Include="Problem65.cpp" />
+    <ClCompile Include="Problem69.cpp" />
     <ClCompile Include="Problem8.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
