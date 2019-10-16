@@ -25,10 +25,22 @@ int Problem71::Rand7()
 
 int Problem71::Rand5()
 {
+	//did same as in problem 45 
 	int sum = 7 * Rand7() - 7 + Rand7();
 
 	if (sum < 46)
 		return (sum % 5) + 1;		
 	else
 		return Rand5();
+
+	//solution 2
+
+	//while (true)
+	//{
+	//int num = Rand7();
+
+	//if (num<6)
+	//	return num;
+	//}
+	
 }
