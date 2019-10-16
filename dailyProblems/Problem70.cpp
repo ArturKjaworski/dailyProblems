@@ -24,7 +24,6 @@ void Problem70::Run()
 	std::cout << CreatePerfectNumber(number) << std::endl<<std::endl;
 
 	std::cout << number <<"-th perfect number is: " << GetNthPerfectNumber(number) << std::endl;
-
 }
 
 int Problem70::CreatePerfectNumber(int number)
