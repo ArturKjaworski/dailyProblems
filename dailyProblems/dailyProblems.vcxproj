@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AlgoExpertProblem1.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Problem.h" />
     <ClInclude Include="Problem1.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AlgoExpertProblem1.cpp" />
     <ClCompile Include="dailyProblems.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Problem.cpp" />
