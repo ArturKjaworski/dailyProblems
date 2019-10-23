@@ -2,6 +2,8 @@
 #include <string>
 #include <iostream>
 
+#define SAFE_DELETE(ptr) { if (ptr != nullptr) {delete(ptr); ptr = nullptr;} }
+
 class Problem
 {
 public:
